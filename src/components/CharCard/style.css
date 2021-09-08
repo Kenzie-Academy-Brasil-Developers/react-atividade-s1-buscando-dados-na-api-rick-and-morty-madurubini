@@ -1,0 +1,21 @@
+.Card {
+  width: 150px;
+  border: 1px solid black;
+}
+
+.Card img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.Dead {
+  background-color: red;
+}
+
+.Alive {
+  background-color: green;
+}
+
+.unknown {
+  background-color: red;
+}
