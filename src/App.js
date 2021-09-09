@@ -16,7 +16,20 @@ function App() {
 
   return (
     <div className="App">
-      <Characters characters={characterList} />
+      <h1>Rick and Morty API</h1>
+      <p>
+        Abaixo os personagens principais do desenho mais legal da Atualidade
+      </p>
+      <div className="Container">
+        <Characters characters={characterList} />
+      </div>
+      <p>
+        Consuma essa API em{" "}
+        <a href="https://rickandmortyapi.com/api/character/">
+          {" "}
+          https://rickandmortyapi.com/api/character/
+        </a>
+      </p>
     </div>
   );
 }

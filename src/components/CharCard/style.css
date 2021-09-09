@@ -1,21 +1,51 @@
 .Card {
-  width: 150px;
-  border: 1px solid black;
+  width: 15%;
+  min-width: 150px;
+  border: 1px solid transparent;
+  font-size: 18px;
+  display: flex;
+}
+
+.Card:hover {
+  filter: brightness(0.9);
+}
+.Card label {
+  font-family: "Poppins";
+  font-weight: 500;
 }
 
 .Card img {
   object-fit: cover;
-  width: 100%;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px dotted white;
 }
 
 .Dead {
-  background-color: red;
+  background-color: #f8ccce;
+  border-radius: 10px;
+  color: #9e0911;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid #9e0911;
 }
 
 .Alive {
-  background-color: green;
+  background-color: #9df19c;
+  border-radius: 10px;
+  color: #0a6b09;
+
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid #0a6b09;
 }
 
 .unknown {
-  background-color: red;
+  background-color: #f8ccce;
+  color: #9e0911;
+
+  border-radius: 10px;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid #9e0911;
 }
